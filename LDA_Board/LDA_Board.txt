@@ -1,0 +1,80 @@
+Partlist exported from C:/Users/Admin-01/Desktop/LDA_BOX/LDA_Board.sch at 2017-11-08 9:43
+
+Part       Value        Device                                            Package                    Description               MPN                VALUE     
+B-1        SIDE-BUTTON  SIDE-BUTTON                                       SIDE-BUTTON                                                                       
+BATTERY-1  BATTERY      BATTERY                                           BATTERY                                                                           
+C1         225          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C2         225          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C3         225          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C4         10uf         CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C5         104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C6         22pf         CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C7         22pf         CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C8         104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C9         4.7uf        CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C10        4.7uf        CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C11        1uf          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C12        10uf         CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C13        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C14        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C15        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C17        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C18        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C19        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C20        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C21        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C22        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C23        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C24        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C25        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C26        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+C27        104          CAP-(0402)                                        C0402                      302010041                 GRM1555C1H150JA01D 15pf      
+D1         BLUE-0402    LED-(0402)                                        LED-0402                   304090075                 BL-HB337A-AV-TRB   BLUE-0402 
+D2         BLUE-0402    LED-(0402)                                        LED-0402                   304090075                 BL-HB337A-AV-TRB   BLUE-0402 
+D3         BLUE-0402    LED-(0402)                                        LED-0402                   304090075                 BL-HB337A-AV-TRB   BLUE-0402 
+D4         BLUE-0402    LED-(0402)                                        LED-0402                   304090075                 BL-HB337A-AV-TRB   BLUE-0402 
+D5         BLUE-0402    LED-(0402)                                        LED-0402                   304090075                 BL-HB337A-AV-TRB   BLUE-0402 
+D6         BLUE-0402    LED-(0402)                                        LED-0402                   304090075                 BL-HB337A-AV-TRB   BLUE-0402 
+D7         HSMF-C118    SMD-LED-RGB(4P-1210)                              LED4-SMD-1210              304090035                 HSMF-C118          HSMF-C118 
+D8         SS14         SS14                                              SMA                                                                               
+D9         BLUE-0402    LED-(0402)                                        LED-0402                   304090075                 BL-HB337A-AV-TRB   BLUE-0402 
+D10        BLUE-0402    LED-(0402)                                        LED-0402                   304090075                 BL-HB337A-AV-TRB   BLUE-0402 
+D11        BLUE-0402    LED-(0402)                                        LED-0402                   304090075                 BL-HB337A-AV-TRB   BLUE-0402 
+ESP8266    6p-2.54      DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)             H6-2.54                    320030060                 F185-1106A1BSYC1   6p-2.54   
+HC05-1     BLUETOOTH    BLUETOOTH                                         BLUETOOTH                                                                         
+IC1        STM32F407ZET STM32F407ZET                                      LQFP144                    ARM 32-bit Cortex?-M3 CPU                              
+MCP73831-1 MCP73831     MCP73831                                          SOT23-5                                                                           
+R1         0R           RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R2         0R           RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R3         1M           RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R4         10k          RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R5         0R           RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R6         0R           RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R7         0R           RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R8         470R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R9         510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R10        510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R11        510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R12        510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R13        510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R14        2k           RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R15        10k          RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R16        10k          RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R17        10k          RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R18        20k          RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R19        0R           RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R20        510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R21        510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R22        510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R23        510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R24        510R         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R25        10k          RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+R26        1.5k         RES-(0402)                                        R0402                      301010000                 RC0402JR-070RL     0R        
+RT9013-1   RT9013       RT9013                                            SOT23-5                                                                           
+SW-1       SWITCH-3P    SWITCH-3P                                         SWITCH-3P                                                                         
+SW3P-1     LD-CCB-001   SWITCH(3P)                                        SW3-2.54-9.0X3.5X3.5+2.0MM 311030006                 LD-CCB-001         LD-CCB-001
+SW3P-2     LD-CCB-001   SWITCH(3P)                                        SW3-2.54-9.0X3.5X3.5+2.0MM 311030006                 LD-CCB-001         LD-CCB-001
+USART1     3p-2.54      DIP-BLACK-FEMALE-HEADER-VERT(3P-2.54)             H3-2.54                    320030024                 F185-1103A0BSYA1   3p-2.54   
+USB2       ZX62-B-5PA   MICRO-USB-SMD(ZX62-B-5PA)                         MICRO-USB5+6P-SMD-0.65-AB  320010005                 ZX62-B-5PA         ZX62-B-5PA
+W25Q128    W25Q128      W25Q128                                           SOP08                                                                             
+Y1         8MHZ         SMD-CRYSTAL-27.12MHZ-18PF-30PPM-60R(4P-3.2X2.5MM) X4-SMD-3.2X2.5X0.7MM       306010027                 7M-27.120MAAJ-T    27.12MHZ  
