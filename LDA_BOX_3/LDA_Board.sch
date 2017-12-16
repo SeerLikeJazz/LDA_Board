@@ -509,7 +509,7 @@
 <smd name="7" x="-0.635" y="3.9" dx="0.5" dy="2.2" layer="1"/>
 <smd name="6" x="0.635" y="3.9" dx="0.5" dy="2.2" layer="1"/>
 <smd name="5" x="1.905" y="3.9" dx="0.5" dy="2.2" layer="1"/>
-<text x="-2.9845" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-2.9845" y="-2.54" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <text x="4.191" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.08" y1="3.5" x2="-1.73" y2="4.4" layer="51"/>
 <rectangle x1="-0.81" y1="3.5" x2="-0.46" y2="4.4" layer="51"/>
@@ -599,7 +599,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <wire x1="-0.4445" y1="-0.762" x2="-0.4445" y2="0.762" width="0.0762" layer="21"/>
 <smd name="1" x="0" y="0.4445" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R270"/>
 <smd name="2" x="0" y="-0.4445" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R270"/>
-<text x="0.635" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
+<text x="0.635" y="1.27" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
 <text x="-1.524" y="1.397" size="0.635" layer="27" font="vector" ratio="10" rot="R270">&gt;VALUE</text>
 <polygon width="0.0254" layer="51">
 <vertex x="0.254" y="0.508"/>
@@ -619,13 +619,13 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <wire x1="-0.4445" y1="-0.762" x2="-0.4445" y2="0.762" width="0.0762" layer="21"/>
 <smd name="1" x="0" y="0.4445" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R270"/>
 <smd name="2" x="0" y="-0.4445" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R270"/>
-<text x="0.635" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
+<text x="0.635" y="1.27" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
 <text x="-1.524" y="1.27" size="0.889" layer="27" font="vector" ratio="11" rot="R270">&gt;VALUE</text>
 </package>
 <package name="LED-0402">
 <smd name="+" x="-0.4445" y="0" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R90"/>
 <smd name="-" x="0.4445" y="0" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R90"/>
-<text x="-1.905" y="0.635" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="0.635" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
 <text x="-0.635" y="-0.762" size="0.254" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-0.762" y1="-0.4445" x2="-0.889" y2="-0.3175" width="0.0762" layer="21" curve="-90"/>
 <wire x1="-0.889" y1="-0.3175" x2="-0.889" y2="0.3175" width="0.0762" layer="21"/>
@@ -694,10 +694,10 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <package name="SIDE-BUTTON">
 <hole x="0.87" y="0" drill="0.6"/>
 <hole x="-0.87" y="0" drill="0.6"/>
-<smd name="P$4" x="-2.3" y="-0.8" dx="1" dy="1" layer="1"/>
-<smd name="P$3" x="2.3" y="-0.8" dx="1" dy="1" layer="1"/>
-<smd name="P$1" x="-2" y="1.15" dx="0.8" dy="1" layer="1"/>
-<smd name="P$2" x="2" y="1.15" dx="0.8" dy="1" layer="1"/>
+<smd name="P$4" x="-2.3" y="-0.508" dx="1" dy="0.762" layer="1"/>
+<smd name="P$3" x="2.3" y="-0.508" dx="1" dy="0.762" layer="1"/>
+<smd name="P$1" x="-1.778" y="1.15" dx="0.8" dy="1" layer="1"/>
+<smd name="P$2" x="1.778" y="1.15" dx="0.8" dy="1" layer="1"/>
 </package>
 <package name="LED2-SMD-1010">
 <circle x="-1.1334" y="-1.1114" radius="0.2" width="0" layer="21"/>
@@ -1740,48 +1740,48 @@ SMD type&lt;br&gt;</description>
 <part name="GND21" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="USB2" library="1-LDA_Board" deviceset="MICRO-USB-SMD(ZX62-B-5PA)" device="" value="ZX62-B-5PA"/>
 <part name="MCP73831-1" library="1-LDA_Board" deviceset="MCP73831" device=""/>
-<part name="C9" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="4.7uf"/>
-<part name="C10" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="4.7uf"/>
-<part name="R8" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="470R"/>
-<part name="R14" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="2k"/>
+<part name="C9" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C10" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="R8" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
+<part name="R14" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
 <part name="GND10" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="GND11" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="GND22" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="GND23" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="RT9013-1" library="1-LDA_Board" deviceset="RT9013" device=""/>
-<part name="C11" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="1uf"/>
-<part name="C12" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="10uf"/>
+<part name="C11" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C12" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
 <part name="GND24" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="GND25" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="GND26" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="+3V5" library="1-LDA_Board" deviceset="+3V3" device=""/>
-<part name="C14" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C17" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C18" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C19" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C20" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C21" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C22" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C23" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C24" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C25" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C26" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C27" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C1" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="225"/>
-<part name="C4" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="10uf"/>
-<part name="C5" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C2" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="225"/>
-<part name="C3" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="225"/>
+<part name="C14" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C17" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C18" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C19" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C20" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C21" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C22" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C23" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C24" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C25" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C26" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C27" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C1" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C4" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C5" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C2" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C3" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
 <part name="R1" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
 <part name="R2" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
 <part name="R5" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
 <part name="R6" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
-<part name="R3" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="1M"/>
-<part name="C6" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="22pf"/>
-<part name="C7" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="22pf"/>
-<part name="R4" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="10k"/>
-<part name="C8" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
-<part name="C13" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
+<part name="R3" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
+<part name="C6" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C7" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="R4" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
+<part name="C8" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
+<part name="C13" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
 <part name="D8" library="1-LDA_Board" deviceset="SS14" device=""/>
 <part name="HC05-1" library="1-LDA_Board" deviceset="BLUETOOTH" device=""/>
 <part name="+3V7" library="1-LDA_Board" deviceset="+3V3" device=""/>
@@ -1790,29 +1790,29 @@ SMD type&lt;br&gt;</description>
 <part name="R19" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
 <part name="+3V8" library="1-LDA_Board" deviceset="+3V3" device=""/>
 <part name="BATTERY-1" library="1-LDA_Board" deviceset="BATTERY" device=""/>
-<part name="R9" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="510R"/>
-<part name="R10" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="510R"/>
-<part name="R11" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="510R"/>
-<part name="R12" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="510R"/>
-<part name="R13" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="510R"/>
+<part name="R9" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
+<part name="R10" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
+<part name="R11" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
+<part name="R12" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
+<part name="R13" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
 <part name="D2" library="1-LDA_Board" deviceset="LED-(0402)" device="" value="BLUE-0402"/>
 <part name="D3" library="1-LDA_Board" deviceset="LED-(0402)" device="" value="BLUE-0402"/>
 <part name="D4" library="1-LDA_Board" deviceset="LED-(0402)" device="" value="BLUE-0402"/>
 <part name="D5" library="1-LDA_Board" deviceset="LED-(0402)" device="" value="BLUE-0402"/>
 <part name="D6" library="1-LDA_Board" deviceset="LED-(0402)" device="" value="BLUE-0402"/>
-<part name="C15" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="104"/>
+<part name="C15" library="1-LDA_Board" deviceset="CAP-(0402)" device="" value="15pf"/>
 <part name="SW3P-2" library="1-LDA_Board" deviceset="SWITCH(3P)" device="" value="LD-CCB-001"/>
 <part name="SW-1" library="1-LDA_Board" deviceset="SWITCH-3P" device=""/>
 <part name="B-1" library="1-LDA_Board" deviceset="SIDE-BUTTON" device=""/>
-<part name="R25" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="10k"/>
-<part name="R26" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="1.5k"/>
+<part name="R25" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
+<part name="R26" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
 <part name="D11" library="1-LDA_Board" deviceset="LED-(0402)" device="" value="BLUE-0402"/>
 <part name="GND18" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="GND19" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="LED2-1" library="1-LDA_Board" deviceset="DOUBLE_LED" device=""/>
 <part name="GND13" library="1-LDA_Board" deviceset="GND" device=""/>
 <part name="+3V6" library="1-LDA_Board" deviceset="+3V3" device=""/>
-<part name="R15" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="470R"/>
+<part name="R15" library="1-LDA_Board" deviceset="RES-(0402)" device="" value="0R"/>
 </parts>
 <sheets>
 <sheet>
